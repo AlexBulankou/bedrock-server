@@ -8,8 +8,8 @@
 ################################
 mode=$1
 server=$2
-server_image="docker.io/imetzach/bedrock-server:latest"
-base_dir="${HOME}/local/minecraft"
+server_image="docker.io/bulankou/minecraft:latest"
+base_dir="/srv/minecraft"
 work_dir="${base_dir}"/"${server}"
 
 ################################
